@@ -12,6 +12,7 @@ namespace CSharpExercises.Exercises.Conditional_statements
         static void Main(string[] args)
         {
             Console.WriteLine(DivisibleBy2Or3(10, 20));
+             Console.WriteLine(DivisibleBy2Or3(15, 20));
            
         }
     }
