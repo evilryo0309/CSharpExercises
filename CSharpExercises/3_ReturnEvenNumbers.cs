@@ -18,10 +18,10 @@ namespace CSharpExercises
             return str;
         }
 
-        static void Main(string[] args)
-        {
-            Console.WriteLine(ReturnEvenNumbers()); 
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine(ReturnEvenNumbers()); 
             
-        }
+        //}
     }
 }
