@@ -2,28 +2,32 @@ using System;
 
 namespace CSharpExercises
 {
-    class IfNumberContains3task
+    class IfNumberContains3Task
     {
         public static bool IfNumberContains3(int number)
         {
-            while (number > 0)
+            if (number > 0)
             {
                 if (number % 10 == 3)
                 {
-                    return true;
+                    if (number % 10 == 3)
+                    {
+                        return true;
+                    }
+
+                    number /= 10;
                 }
 
-                number /= 10;
+                
             }
 
             return false;
         }
 
+        // public static void Main()
+        // {
+        //     Console.WriteLine(IfNumberContains3(333));
 
-        public static void Main()
-        {
-            Console.WriteLine(IfNumberContains3(5384562)); // true
-            
-        }
+        // }
     }
 }

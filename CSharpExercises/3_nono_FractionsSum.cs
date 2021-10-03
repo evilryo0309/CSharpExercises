@@ -16,11 +16,11 @@ namespace CSharpExercises
             return sum;
         }
 
-        static void Main(string[] args)
-        {
-            Console.WriteLine(FractionsSum(2));  // 1.25
-            Console.WriteLine(FractionsSum(7));  // 1.5117970521542
-            Console.WriteLine(FractionsSum(10)); // 1.54976773116654
-        }
+        // static void Main(string[] args)
+        // {
+        //     Console.WriteLine(FractionsSum(2));  // 1.25
+        //     Console.WriteLine(FractionsSum(7));  // 1.5117970521542
+        //     Console.WriteLine(FractionsSum(10)); // 1.54976773116654
+        // }
     }
 }
